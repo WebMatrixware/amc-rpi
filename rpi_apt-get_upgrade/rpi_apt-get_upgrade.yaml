@@ -1,0 +1,9 @@
+# Run apt upgrade on a remote device
+artefact:
+  name: rpi_apt-get_upgrade
+  version: 1.0.0
+  device_type: rpi
+
+payloads:
+  - name: rpi_apt-get_upgrade.sh
+    type: script
